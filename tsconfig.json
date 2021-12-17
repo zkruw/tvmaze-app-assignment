@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "lib": ["dom", "ES2020"],
+        "module": "ES2020",
+        "moduleResolution": "node",
+        "outDir": "./dist/",
+        "strict": true,
+        "target": "ES2020",
+        //"jsxImportSource": "@emotion/react",
+        "paths": {
+            "test-utils": ["./test-utils"]
+        },
+    },
+    "include": [
+        "src/**/*",
+        "./jest.setup.ts"
+    ]
+}
